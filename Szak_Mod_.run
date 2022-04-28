@@ -1,0 +1,5 @@
+model Szak_Mod_.mod;
+data Szak_Mod_.dat;
+option solver cplex;
+solve;
+display cel, y;
